@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+#main{
+    width: 90%;
+    display: grid;
+    border: double 4px black;
+}
+#main > div {
+    border: solid 1px darkgreen;
+}
+#header{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#menu{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+#footer{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
